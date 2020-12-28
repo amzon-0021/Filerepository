@@ -2,17 +2,17 @@ u = """
 import os
 import boot
 def sbl(t):
-    print('''
+    print(f'''
     ===========================================
-                   INDASOS VER.9
+                   INDASOS VER.9.1
             |=========================|
 {t}Mode
-login>User
-password>user''')
+login~$User
+password~$user''')
 sbl("Nomal ")
 boot.boot()
 while True:
-    c = input("INDAS>>")
+    c = input("INDAS~$")
     boot.cmd(c)
     """
 
