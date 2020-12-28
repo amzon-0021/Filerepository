@@ -1,6 +1,3 @@
-print("""indasOS UpdateVer.9
-IndasOSをアップデートします
-""")
 u = """
 import os
 import boot
