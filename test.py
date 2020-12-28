@@ -1,7 +1,6 @@
 print("""indasOS UpdateVer.9
 IndasOSをアップデートします
 """)
-input("続行するには何かキーを押してください")
 u = """
 import os
 import boot
